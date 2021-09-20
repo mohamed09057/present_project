@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f516bc87-c9d8-4da5-a57e-cd415d60b27f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/chrome-device/Default/Preferences" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.flutter-plugins-dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins-dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/darabalsadaa_android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/darabalsadaa_android.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\GraduateProject\present_app\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yP3jnskwHn7PpHhFz5aEV9egQq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f516bc87-c9d8-4da5-a57e-cd415d60b27f" name="Default Changelist" comment="" />
+      <created>1632139533641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632139533641</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1321" height="198" key="GridCell.Tab.0.bottom" timestamp="1632141326756">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1321" height="198" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1632141326756" />
+    <state width="1321" height="198" key="GridCell.Tab.0.center" timestamp="1632141326755">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1321" height="198" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1632141326755" />
+    <state width="1321" height="198" key="GridCell.Tab.0.left" timestamp="1632141326754">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1321" height="198" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1632141326754" />
+    <state width="1321" height="198" key="GridCell.Tab.0.right" timestamp="1632141326756">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1321" height="198" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1632141326756" />
+  </component>
+</project>
