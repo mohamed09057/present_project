@@ -1,15 +1,11 @@
 import 'dart:async';
 
-import 'package:darabalsadaa/conistants/my_colors.dart';
-import 'package:darabalsadaa/conistants/strings.dart';
-import 'package:darabalsadaa/data/models/slide.dart';
-import 'package:darabalsadaa/presentation/screens/start_screen.dart';
+import 'package:present_app/conistants/my_colors.dart';
+import 'package:present_app/conistants/strings.dart';
+import 'package:present_app/data/models/slide.dart';
 import 'package:flutter/material.dart';
-
 import '../widgets/slide_item.dart';
 import '../widgets/slide_dots.dart';
-import '../screens/login_screen.dart';
-import '../screens/signup_screen.dart';
 
 class GettingStartedScreen extends StatefulWidget {
   @override
@@ -98,7 +94,7 @@ class _GettingStartedScreenState extends State<GettingStartedScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  FlatButton(
+                  MaterialButton(
                     child: Text(
                       'ابدأ',
                       style: TextStyle(

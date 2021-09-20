@@ -1,4 +1,4 @@
-import 'package:darabalsadaa/conistants/my_colors.dart';
+import 'package:present_app/conistants/my_colors.dart';
 import 'package:flutter/material.dart';
 
 class SignupScreen extends StatefulWidget {
@@ -154,7 +154,7 @@ class _SignupScreenState extends State<SignupScreen> {
                       SizedBox(
                         height: 5,
                       ),
-                      FlatButton(
+                      MaterialButton(
                         child: Text(
                           'تسجيل',
                           style: TextStyle(

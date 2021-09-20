@@ -1,4 +1,4 @@
-import 'package:darabalsadaa/conistants/my_colors.dart';
+import 'package:present_app/conistants/my_colors.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -121,7 +121,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       SizedBox(
                         height: 10,
                       ),
-                      FlatButton(
+                      MaterialButton(
                         child: Text(
                           'تسجيل الدخول',
                           style: TextStyle(

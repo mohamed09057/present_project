@@ -1,9 +1,7 @@
-final baseUrl = "https://www.breakingbadapi.com/api/";
+final baseUrl = "";
 const gettingStartedScreen = "/";
 const startScreen = "startScreen/";
 const loginScreen = "loginScreen/";
 const signupScreen = "signupScreen/";
 
 
-const charactersScreen = "characters/";
-const charactersDetailsScreen = "/charactersDetails";

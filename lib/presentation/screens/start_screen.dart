@@ -1,5 +1,5 @@
-import 'package:darabalsadaa/conistants/my_colors.dart';
-import 'package:darabalsadaa/conistants/strings.dart';
+import 'package:present_app/conistants/my_colors.dart';
+import 'package:present_app/conistants/strings.dart';
 import 'package:flutter/material.dart';
 
 class StartScreen extends StatelessWidget {
@@ -41,7 +41,7 @@ class StartScreen extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
-                        FlatButton(
+                        MaterialButton(
                           child: Text(
                             'تسجيل الدخول',
                             style: TextStyle(
@@ -59,7 +59,7 @@ class StartScreen extends StatelessWidget {
                           },
                         ),
                         SizedBox(height: 15,),
-                        FlatButton(
+                        MaterialButton(
                           child: Text(
                             'تسجيل',
                             style: TextStyle(

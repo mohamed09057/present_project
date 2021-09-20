@@ -1,5 +1,5 @@
-import 'package:darabalsadaa/conistants/my_colors.dart';
-import 'package:darabalsadaa/data/models/slide.dart';
+import 'package:present_app/conistants/my_colors.dart';
+import 'package:present_app/data/models/slide.dart';
 import 'package:flutter/material.dart';
 
 class SlideItem extends StatelessWidget {

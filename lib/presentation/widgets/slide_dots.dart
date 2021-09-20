@@ -1,6 +1,7 @@
-import 'package:darabalsadaa/conistants/my_colors.dart';
+import 'package:present_app/conistants/my_colors.dart';
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class SlideDots extends StatelessWidget {
   bool isActive;
   SlideDots(this.isActive);
