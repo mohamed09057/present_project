@@ -115,7 +115,10 @@ class _LoginScreenState extends State<LoginScreen> {
                           ),
                           Text(
                             "نسيت كلمة السر ؟",
-                            style: TextStyle(fontSize: 16,color: MyColors.myGreen,fontWeight: FontWeight.bold),
+                            style: TextStyle(
+                                fontSize: 16,
+                                color: MyColors.myGreen,
+                                fontWeight: FontWeight.bold),
                           ),
                         ],
                       ),
@@ -127,7 +130,6 @@ class _LoginScreenState extends State<LoginScreen> {
                           'تسجيل الدخول',
                           style: TextStyle(
                             fontSize: 20,
-                            
                           ),
                         ),
                         shape: OutlineInputBorder(

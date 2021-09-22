@@ -15,7 +15,7 @@ class SlideItem extends StatelessWidget {
         Text(
           slideList[index].title,
           style: TextStyle(
-            fontSize: 22,
+            fontSize: 30,
             color: MyColors.myGray,
           ),
         ),
@@ -23,11 +23,12 @@ class SlideItem extends StatelessWidget {
           height: 10,
         ),
         Padding(
-          padding: const EdgeInsets.all(20.0),
+          padding: const EdgeInsets.fromLTRB(5.0, 10.0, 10.0, 1.0),
           child: Text(
             slideList[index].description,
             textAlign: TextAlign.center,
             style: TextStyle(
+              fontSize: 18,
               color: MyColors.myGreen,
             ),
           ),
@@ -40,10 +41,9 @@ class SlideItem extends StatelessWidget {
           width: 250,
           height: 250,
           decoration: BoxDecoration(
-            shape: BoxShape.circle,
             image: DecorationImage(
               image: AssetImage(slideList[index].imageUrl),
-              fit: BoxFit.cover,
+
             ),
           ),
         ),

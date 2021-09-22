@@ -94,22 +94,33 @@ class _GettingStartedScreenState extends State<GettingStartedScreen> {
               Column(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: <Widget>[
-                  MaterialButton(
-                    child: Text(
-                      'ابدأ',
-                      style: TextStyle(
-                        fontSize: 18,
+                  Container(
+                    child: MaterialButton(
+                      child: Text(
+                        //Text Propraties ------------
+                        'انطلـــــــق',
+                        style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.white),
+
+                      ),
+                      onPressed: () {
+                        Navigator.pushNamed(context, startScreen);
+                      },
+                    ),
+                    //button Propraties--------
+                    margin: EdgeInsets.all(5.0),
+                    width: 200,
+                    height: 55,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15.0),
+                      gradient: LinearGradient(
+                        colors: [MyColors.DarkGreen, MyColors.myGreen],
+                        begin: FractionalOffset.topCenter,
+                        end: FractionalOffset.bottomCenter,
+
                       ),
                     ),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(5),
-                    ),
-                    padding: const EdgeInsets.all(15),
-                    color: MyColors.myGreen,
-                    textColor: Colors.white,
-                    onPressed: () {
-                      Navigator.pushNamed(context, startScreen);
-                    },
                   ),
                 ],
               )
