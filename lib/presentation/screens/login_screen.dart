@@ -1,5 +1,6 @@
 import 'package:present_app/conistants/my_colors.dart';
 import 'package:flutter/material.dart';
+import 'package:present_app/conistants/strings.dart';
 
 class LoginScreen extends StatefulWidget {
   @override
@@ -136,7 +137,9 @@ class _LoginScreenState extends State<LoginScreen> {
                         ),
                         padding: const EdgeInsets.all(15),
                         textColor: MyColors.myGreen,
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.pushNamed(context, homePageScreen);
+                        },
                       ),
                     ],
                   ),

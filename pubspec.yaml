@@ -27,6 +27,8 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   flutter_offline: ^2.0.0
+  font_awesome_flutter: ^8.5.0
+  shared_preferences: ^0.5.8
 
 dev_dependencies:
   flutter_test:
