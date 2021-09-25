@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:present_app/conistants/my_colors.dart';
+import 'package:present_app/presentation/widgets/main_drawer.dart';
 import '../widgets/home_page_body.dart';
 
 class HomePageScreen extends StatelessWidget {
@@ -10,6 +11,7 @@ class HomePageScreen extends StatelessWidget {
     return Directionality(
       textDirection: TextDirection.rtl,
       child: Scaffold(
+        drawer: MainDrawer(),
         appBar: buildAppBar(),
         body: HomePageBody(),
       ),
@@ -20,20 +22,11 @@ class HomePageScreen extends StatelessWidget {
     return AppBar(
       backgroundColor: MyColors.myGreen,
       elevation: 0.0,
-      title: Text('الصفحة الشخصية'),
+      title: Text(' الرئيسية'),
       centerTitle: true,
-      actions: <Widget>[
-        MaterialButton(
-          onPressed: () {},
-          child: Text(
-            'تعديل',
-            style: TextStyle(
-              color: Colors.white,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-        ),
-      ],
+     
     );
   }
+
+ 
 }

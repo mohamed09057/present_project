@@ -98,7 +98,7 @@ class _GettingStartedScreenState extends State<GettingStartedScreen> {
                     child: MaterialButton(
                       child: Text(
                         //Text Propraties ------------
-                        'انطلـــــــق',
+                        ' انطلـــــــق   ',
                         style: TextStyle(
                             fontSize: 30,
                             color: Colors.white),

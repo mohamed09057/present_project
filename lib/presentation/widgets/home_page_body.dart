@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:present_app/presentation/widgets/info.dart';
-import 'package:present_app/presentation/widgets/profile_menue_items.dart';
-import 'package:shared_preferences/shared_preferences.dart';
-
+import 'package:present_app/conistants/my_colors.dart';
 
 class HomePageBody extends StatefulWidget {
   const HomePageBody({Key key}) : super(key: key);
@@ -12,70 +9,67 @@ class HomePageBody extends StatefulWidget {
 }
 
 class _HomePageBodyState extends State<HomePageBody> {
-    var username;
-  var email;
-  bool isSignIn = false;
-  getpref() async {
-    SharedPreferences preferences = await SharedPreferences.getInstance();
-    username = preferences.getString("username");
-    email = preferences.getString("email");
-    if (username != null) {
-      setState(() {
-        username = preferences.getString("username");
-        email = preferences.getString("email");
-        isSignIn = true;
-      });
-    }
-  }
-  @override
-  void initState() {
-    getpref();
-    super.initState();
-  }
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-          child: Column(
+      
+      child: Column(
         children: <Widget>[
-          Info(
-            name: username.toString(),
-            image: 'assets/images/jjj.jpg',
-            email: email.toString(),
+          SizedBox(
+            height: 250,
+            child: Stack(
+              children: <Widget>[
+                ClipPath(
+                  clipper: CustomShape(),
+                  child: Container(
+                    height: 150,
+                    color: MyColors.myGreen,
+                  ),
+                ),
+              ],
+            ),
           ),
-          SizedBox(height: 30),
-          ProfileMenueItems(
-              title: '   اضافة اعلان',
-              icon: Icon(Icons.add),
-              press: () {
-              
-              }),
-              SizedBox(height: 20),
-
-              ProfileMenueItems(
-              title: '   اعلاناتي',
-              icon: Icon(Icons.announcement),
-              press: () {
-               
-              }),
-
-               SizedBox(height: 20),
-              ProfileMenueItems(
-              title: '   عملياتي',
-              icon: Icon(Icons.archive),
-              press: () {
-                
-              }),
-              
-               SizedBox(height: 20),
-              ProfileMenueItems(
-              title: '   تسجيل خروج',
-              icon: Icon(Icons.exit_to_app),
-              press:  () async {
-                     
-                    },),
+          Container(
+            margin: EdgeInsets.symmetric(horizontal: 20),
+            width: double.infinity,
+            child: MaterialButton(
+              child: Text(
+                'مسح رمز الحضور   ',
+                style: TextStyle(
+                  fontSize: 18,
+                ),
+              ),
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+              padding: const EdgeInsets.all(15),
+              color: MyColors.myGreen,
+              textColor: Colors.white,
+              onPressed: () {
+              },
+            ),
+          ),
         ],
       ),
     );
   }
 }
 
+class CustomShape extends CustomClipper<Path> {
+  @override
+  Path getClip(Size size) {
+    var path = Path();
+    double height = size.height;
+    double width = size.width;
+    path.lineTo(0, height - 100);
+    path.quadraticBezierTo(width / 2, height, width, height - 100);
+    path.lineTo(width, 0);
+    path.close();
+    return path;
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Path> oldClipper) {
+    return true;
+  }
+}

@@ -42,6 +42,7 @@ class StartScreen extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: <Widget>[
                         MaterialButton(
+                          
                           child: Text(
                             'تسجيل الدخول',
                             style: TextStyle(
